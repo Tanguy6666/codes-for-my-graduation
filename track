@@ -1,0 +1,8 @@
+python main.py \
+--mode submit \
+--config-path ./configs/train_mot17.yaml \
+--submit-model lite_model_epoch_X.pt \
+--data-root ./data/ \
+--dataset MOT17 \
+--submit-dir ./eval_results/ \
+--submit-data-split val

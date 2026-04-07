@@ -1,0 +1,10 @@
+conda activate MeMOTR
+
+python main.py \
+    --mode train \
+    --config-path ./configs/train_mot17.yaml \
+    --outputs-dir ./outputs/memotr_mot17/ \
+    --data-root /mnt/d/Graduation_project/MeMOTR-main/data/ \
+    --resume ./outputs/memotr_mot17/checkpoint_X.pth \
+    --use-checkpoint \
+    --use-crowdhuman Fal
